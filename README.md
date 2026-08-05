@@ -36,6 +36,51 @@
 
 ---
 
+## 🎥 Demo Videos
+
+### 📹 1. Terminal Upload Process
+[![Terminal Recording](
+https://img.shields.io/badge/Watch-Terminal%20Upload-blue?style=for-the-badge&logo=github)](
+https://github.com/warshia-rubab/PrivacyDashboard/blob/main/Terminal%20Video.mp4)
+
+*Complete walkthrough of uploading the project to GitHub.*
+
+---
+
+### 📊 2. Application Logs Recording
+[![Logs Recording](
+https://img.shields.io/badge/Watch-Application%20Logs-orange?style=for-the-badge&logo=android)](
+https://github.com/warshia-rubab/PrivacyDashboard/blob/main/Logs%20Video.mp4)
+
+*Real-time logs showing app execution, permission checks, and data flow.*
+
+**What's shown in the logs:**
+- ✅ App initialization
+  
+- 🔍 Permission status checks
+  
+- 📊 Data monitoring events
+  
+- 🔄 Background processes
+  
+- ⚠️ Warning messages (if any)
+  
+- ✅ Successful operations
+  
+
+---
+
+### 🔍 Logs Overview
+
+| Log Level | Count | Description |
+|-----------|-------|-------------|
+| ℹ️ Info | XX | App initialization and main operations |
+| 🟡 Warning | X | Non-critical issues (e.g., deprecated API usage) |
+| 🔴 Error | X | Critical issues that need attention |
+| 🟢 Success | XX | Successful permission checks and operations |
+
+---
+
 ## 🛠️ Technology Stack
 
 | Technology | Version | Purpose |
@@ -58,12 +103,54 @@
 
 ## 📸 Screenshots
 
-| Dashboard | Permissions | Settings |
-|-----------|-------------|----------|
-| *(Add screenshot)* | *(Add screenshot)* | *(Add screenshot)* |
+### 🏠 Privacy Dashboard - Main Screen
 
-*Screenshots coming soon...*
+| Feature | Description |
+|---------|-------------|
+| **App Permissions** | Scan and manage app permissions |
+| **Camera** | Access camera for photos |
+| **Location** | Access your location |
+| **Audio** | Record audio |
+| **Contacts** | Read your contacts |
+| **Files** | Access files and media |
 
+![Privacy Dashboard Main Screen](./App.png)
+
+*Privacy Dashboard showing app permissions with ON/OFF toggles and status indicators.*
+
+---
+
+### 📱 App Screenshot
+
+<div align="center">
+  <img src="./App.png" alt="Privacy Dashboard App" width="300"/>
+  <br/>
+  <em>Privacy Dashboard - Permission Management</em>
+</div>
+
+---
+
+### 🔍 Features Shown
+
+| Permission | Status | State |
+|------------|--------|-------|
+| 📷 **Camera** | 🟢 **ON** | ENABLED |
+| 📍 **Location** | 🟢 **ON** | ENABLED |
+| 🎙️ **Audio** | 🔴 **OFF** | DISABLED |
+| 👤 **Contacts** | 🟢 **ON** | ENABLED |
+| 📁 **Files** | 🟢 **ON** | ENABLED |
+
+---
+
+### 📊 App Interface Overview
+
+<div align="center">
+  <img src="./App.png" alt="Privacy Dashboard" width="280"/>
+  <br/>
+  <b>Privacy Dashboard</b> - Permission Management Interface
+  <br/>
+  <i>Scan App Permissions section showing real-time permission status</i>
+</div>
 ---
 
 ## 🚀 Getting Started
