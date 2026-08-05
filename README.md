@@ -114,21 +114,19 @@ https://github.com/warshia-rubab/PrivacyDashboard/blob/main/Logs%20Video.mp4)
 | **Contacts** | Read your contacts |
 | **Files** | Access files and media |
 
-![Privacy Dashboard Main Screen](./App.png)
 
-*Privacy Dashboard showing app permissions with ON/OFF toggles and status indicators.*
 
----
 
 ### 📱 App Screenshot
 
 <div align="center">
-  <img src="./App.png" alt="Privacy Dashboard App" width="300"/>
+  <img src="https://github.com/warshia-rubab/PrivacyDashboard/blob/main/App%20.png?raw=true" alt="Privacy Dashboard App" width="300"/>
   <br/>
   <em>Privacy Dashboard - Permission Management</em>
 </div>
 
----
+          *Privacy Dashboard showing app permissions with ON/OFF toggles and status indicators.*
+
 
 ### 🔍 Features Shown
 
@@ -142,16 +140,6 @@ https://github.com/warshia-rubab/PrivacyDashboard/blob/main/Logs%20Video.mp4)
 
 ---
 
-### 📊 App Interface Overview
-
-<div align="center">
-  <img src="./App.png" alt="Privacy Dashboard" width="280"/>
-  <br/>
-  <b>Privacy Dashboard</b> - Permission Management Interface
-  <br/>
-  <i>Scan App Permissions section showing real-time permission status</i>
-</div>
----
 
 ## 🚀 Getting Started
 
@@ -164,14 +152,18 @@ https://github.com/warshia-rubab/PrivacyDashboard/blob/main/Logs%20Video.mp4)
 | Android SDK | API 34 |
 | Gradle | 8.0+ |
 
+---
+
 ### Installation Steps
 
 #### 1. Clone the Repository
 ```bash
 git clone https://github.com/warshia-rubab/PrivacyDashboard.git
+
 cd PrivacyDashboard
 
 2. Open in Android Studio
+
 . Launch Android Studio
 
 . Select File → Open
@@ -181,15 +173,19 @@ cd PrivacyDashboard
 . Click OK
 
 3. Sync Gradle
+
 Android Studio will automatically sync dependencies
 
 If not, click File → Sync Project with Gradle Files
 
 4. Build the Project
+
 bash
+
 ./gradlew build
 
 5. Run the Application
+
 . Connect an Android device or start an emulator
 
 . Click the Run button (▶️) in Android Studio
@@ -235,23 +231,30 @@ PrivacyDashboard/
 ## 🧪 Testing
 
 1. Run Unit Tests
+   
 bash
+
 ./gradlew test
 
 2. Run Instrumented Tests
+   
 bash
+
 ./gradlew connectedAndroidTest
 
+---
+
 ## 🔧 Configuration
+
 Environment Variables
 
-Create a local.properties file in the root directory:
+. Create a local.properties file in the root directory:
 
-properties
+= properties
 
 sdk.dir=/path/to/your/android/sdk
 
-Build Variants
+. Build Variants
 
 Debug - Development build with debugging enabled
 
@@ -263,9 +266,9 @@ Release - Production build with optimization
 
 We welcome contributions! Please follow these steps:
 
-1.Fork the repository
+1. Fork the repository
 
-2.Create a feature branch: git checkout -b feature/amazing-feature
+2. Create a feature branch: git checkout -b feature/amazing-feature
 
 3. Commit changes: git commit -m 'Add amazing feature'
 
